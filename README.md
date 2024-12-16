@@ -2,19 +2,19 @@
 NWA was never that easy! 😎
 Don't forget to change the data with your S-Number ;)
 
+*Just make sure to review my commands, just in case of...*
+
 # Step 1
 Encode your username and password in base64 and store it in a notepad.
 
 ## Encode your email
 ```
 echo -n "S2410239...@sin-lab.at" | base64 # Replace with your S-Number
-UzI0MTAyMzkwMDJAc2luLWxhYi5hdA==
 ```
 
 ## Encode your password
 ```
 echo -n "l0ngpasswordsaremuchb3tters1b24" | base64
-bDBuZ3Bhc3N3b3Jkc2FyZW11Y2hiM3R0ZXJzMWIyNA==
 ```
 
 # Step 2
@@ -33,7 +33,7 @@ AUTH LOGIN
 
 MAIL FROM:<S2410239...@sin-lab.at> # Replace with your S-Number
 
-RCPT TO:<nwa1@sin-lab.at>
+RCPT TO:<tutor_nwa1@sin-lab.at>
 
 DATA
 Subject: S2410239... Authentication + secure SMTP # Replace with your S-Number
