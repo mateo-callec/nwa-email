@@ -34,11 +34,13 @@ AUTH LOGIN
 [USER_BASE64_VALUE]
 [PASSWORD_BASE64_VALUE]
 
-MAIL FROM:<S2410239...@sin-lab.at> # Replace with your S-Number
+MAIL FROM: <S2410239...@sin-lab.at> # Replace with your S-Number
 
-RCPT TO:<tutor_nwa1@sin-lab.at>
+RCPT TO: <tutor_nwa1@sin-lab.at>
 
 DATA
+From: <S2410239...@sin-lab.at> # Replace with your S-Number
+To: <tutor_nwa1@sin-lab.at>
 Subject: S2410239... Authentication + secure SMTP # Replace with your S-Number
 Date: Mon, 16 Dec 2024 HH:MM:SS +0000 # Just change this date to the current
 Message-ID: <YYYYMMDD-HHMMSS@sin-lab.at> # Also change this date to the current
